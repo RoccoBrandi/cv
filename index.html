@@ -1,125 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Rocco's Personal Site</title>
-    </head>
-    <body>
-        <table cellspacing="10">
-            <tr>
-                <td><img src="images/rocco-brandi.png" alt="Rocco's Picture" width="250" height="250"></td>
-                <td><h1>Rocco Brandi</h1>
-                    <p><em>Senior Software Designer - <strong>Embedded systems</strong> at
-                        <a href="https://www.extron.com">Extron</a></em></p>
-                    <p>Development and Management of hardware, firmware and software design in the following fields:<br>
-                        Electronics, Informatics, Biomedical, Industrial Automation, Automotive</p></td>
-            </tr>
-        </table>
-        <hr>
-        <h3>Work Experience</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2020</td>
-                    <td>Senior Software Designer - Embedded systems at Extron Electronics</td>
-                </tr>
-                 <tr>
-                    <td>2017-2020</td>
-                    <td>Embedded Software Engineer at McLaren Applied</td>
-                </tr>
-                <tr>
-                    <td>2014-2017</td>
-                    <td>Embedded Software Engineer at Hensoldt UK</td>
-                </tr>
-                <tr>
-                    <td>2011-2014</td>
-                    <td>Firmware Engineer at Ma.Vi.Srl</td>
-                </tr>
-            </tbody>
-        </table>
+<head>
+    <meta charset="UTF-8">
+    <title>Rocco Brandi</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="Cloud">
+    <h1>I'm Rocco</h1>
+    <h2>A Senior Embedded Engineer, a husband, a father, a buddhist practitioner</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="Cloud">
+    <img src="images/mountain.png" alt="Mount">
+</div>
+<div class="middle-container">
+    <div class="profile">
+        <img class="pictures" src="images/NewCVImage.png" alt="Me">
+        <h2>Hello.</h2>
+        <p class="intro"> I'm a Senior Embedded Engineer with experience in Industrial Automation, Biomedical, Automotive</p>
+    </div>
+    <hr>
+    <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+            <img class="pictures-skills" src="images/skills.jpg" alt="skills">
+            <h3>Programming Languages</h3>
+            <p>I'm very proficient with different programming languages like C, C++, C#, ARM Assembly, VHDL, Python, Groovy</p>
+        </div>
+        <div class="skill-row">
+            <img class="pictures-boards" src="images/boards.jpeg" alt="boards">
+            <h3>Different contexts</h3>
+            <p>I enjoy interfacing and experimenting with different hardware & boards (STM32F, Zynq, NXP, BeagleBone, Arduino...) in different scenarios (Bare Metal, RTOS, Embedded Linux, Windows)  </p>
+        </div>
 
-        <hr>
-        <h3>Skills</h3>
-        <table>
-            <tr>
-                <td>
-                    <table cellspacing="10">
-                        <tr>
-                            <td>Embedded systems(bare metal, Embedded Linux, RTOS, Windows)</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Design and development of MCU, DSP, FPGA </td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>AGILE Methodologies</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>ARM processors</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td> STM32F4xx family</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>ARM Assembly</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table cellspacing="10">
-                        <tr>
-                            <td>C</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>C++</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>C#</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Python</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>VHDL</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Jenkins</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
+        <div class="skill-bhuddism">
+            <img class="pictures" src="images/hbs.png" alt="hbs">
+            <h3>Honmon Butsuryu Shu</h3>
+            <p>I have been practising Nichiren Buddhism since I was 20 years old</p>
+        </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+        <a class="btn" href="mailto:viccio75@email.com">CONTACT ME</a>
+    </div>
+</div>
 
-            </tr>
-        </table>
-        <hr>
-        <h3>Pubblication</h3>
-        <ul>
-            <li><a href="https://www.amazon.co.uk/Realizzazione-Master-EtherCAT-controllato-Webserver/dp/3639763076/ref=sr_1_1?qid=1637697821&refinements=p_27%3ARocco+Brandi&s=books&sr=1-1">Realizzazione di Master EtherCAT controllato via Webserver: Progetto OpenSource basato sulle librerie lwIP e SOEM</a> </li>
-        </ul>
-        <hr>
-        <!--<h3>Hobbies</h3>
-        <ol>
-            <li>Music</li>
-            <li><a href="books.html">Reading</a> </li>
-            <li>Motorsport</li>
-        </ol>
-        <hr>-->
-        <p><a href="contacts.html">Contact me</a> </p>
-    </body>
+
+<div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/rocco-brandi/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="http://www.hbs-uk.com/">HBS-UK</a>
+    <p class="copyright">© 2022 Rocco Brandi.</p>
+</div>
+
+
+</body>
 </html>
